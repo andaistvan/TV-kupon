@@ -1,0 +1,6 @@
+plugin:
+    name: 'arteriaweb.tv::lang.plugin.name'
+    description: 'arteriaweb.tv::lang.plugin.description'
+    author: arteriaweb
+    icon: oc-icon-adjust
+    homepage: ''

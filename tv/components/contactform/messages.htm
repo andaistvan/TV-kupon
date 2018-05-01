@@ -1,0 +1,8 @@
+{% for message in errorMsgs %}
+	<div>{{ message }}</div>
+{% endfor %}
+
+<script type="text/javascript">
+	var errors = {{ fieldMsgs|json_encode()|raw }};
+	console.log(errors);
+</script>
